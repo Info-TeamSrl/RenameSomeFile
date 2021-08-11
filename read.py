@@ -7,6 +7,7 @@ for n in range(x):
     aux=aux.replace("_WEB", "")
     aux=aux.replace("_web", "")
     aux=aux.replace("-WEB", "")
+    aux=aux.replace("RDN-", "")
     print(aux)
     print("--------------------------")
     try:
